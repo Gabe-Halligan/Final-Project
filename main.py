@@ -73,7 +73,7 @@ while True:
         print("You walk deeper into the room to look for an opening on the opposite wall.")
         print("The door you entered through slams shut behind you. No matter how hard you try to open it, it won't budge.")
         print("Hours pass... then days. You have no food or water.")
-        print("After what seems like aes, you collapse. You no loner have the energy needed to survive. The adventure ends here.")
+        print("After what seems like ages, you collapse. You no loner have the energy needed to survive. The adventure ends here.")
         print("Game Over.")
         exit()
     else:
@@ -84,14 +84,14 @@ while True:
 print("\nYou venture into the next room and notice a frail looking man locked in a cage off to the side.")
 print("There is a door on the other side of the room, but it is locked.")
 print("You approach the cage and the prisoner looks up at you.")
-print("The prisoner says to you 'I was once an adventurer like you. I battled my way through this dungeon and ended up trapped in here. I know where the key to the door is. If you let me out of here, I will tell you.")
+print("The prisoner says to you 'I was once an adventurer like you. I battled my way through this dungeon and ended up trapped in here. I know where the key to the door is. If you let me out of here, I will tell you.'")
 
 while True:
     choice = input("\nDo you choose to (1) let the prisoner out of his cage or (2) try to find the key yourself? Enter 1 or 2:").strip()
 
     if choice == "1":
         print("\nYou unlock the prisoners cage and free him. He thanks you profusely.")
-        print("Suddenly, he pulls out a dagger and takes you to the ground. 'Imbecile! You should have left me to rot!")
+        print("Suddenly, he pulls out a dagger and takes you to the ground. 'Imbecile! You should have left me to rot!'")
         print("He starts stabbing you repeatedly. You have been killed.")
         print("\nGame Over.")
         exit()
